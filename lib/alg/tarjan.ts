@@ -1,4 +1,4 @@
-import { GraphLike } from '../graph';
+import type { GraphLike } from '../graph';
 
 export function tarjan(g: GraphLike): string[][] {
   var index = 0;

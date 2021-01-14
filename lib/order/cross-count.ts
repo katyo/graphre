@@ -1,5 +1,5 @@
 import { array, flattenDeep, sortBy } from '../helpers';
-import { DaGraph } from '../types';
+import type { DaGraph } from '../types';
 
 /*
  * A function that takes a layering (an array of layers, each with an array of

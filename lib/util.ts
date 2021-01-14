@@ -1,6 +1,6 @@
 import { Graph } from "./graph";
 import { array, has, uniqueId } from "./helpers";
-import { DaGraph, EdgeLabel, GraphLabel, GraphNode, Rect, Vector } from "./types";
+import type { DaGraph, EdgeLabel, GraphLabel, GraphNode, Rect, Vector } from "./types";
 
 /*
  * Adds a dummy node to the graph and return v.

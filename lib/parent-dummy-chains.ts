@@ -1,4 +1,4 @@
-import { DaGraph } from "./types";
+import type { DaGraph } from "./types";
 
 interface Ordering {
   low: number

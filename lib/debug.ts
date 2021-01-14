@@ -1,5 +1,5 @@
 import { Graph } from "./graph";
-import { DaGraph } from "./types";
+import type { DaGraph } from "./types";
 import * as util from "./util";
 
 export function debugOrdering(g: DaGraph) {

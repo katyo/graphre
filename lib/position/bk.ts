@@ -1,6 +1,6 @@
 import { Graph } from "../graph";
 import { buildLayerMatrix } from "../util";
-import { Alignment, DaGraph } from '../types';
+import type { Alignment, DaGraph } from '../types';
 import { has, last, mapValues, minBy, range, sortBy, values } from "../helpers";
 
 type Xs = Record<string, number>;

@@ -1,10 +1,10 @@
 import { feasibleTree } from "./feasible-tree";
 import { slack } from "./util";
 import { longestPath } from "./util";
-import { Edge, Graph } from "../graph";
+import type { Edge, Graph } from "../graph";
 import { preorder, postorder } from "../alg";
 import { simplify } from "../util";
-import { DaGraph, GraphNode } from '../types';
+import type { DaGraph, GraphNode } from '../types';
 import { has, minBy } from "../helpers";
 
 type SimplexNode = GraphNode & { low: number, lim: number, parent: string, cutvalue: number };

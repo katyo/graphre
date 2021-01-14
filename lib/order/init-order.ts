@@ -1,5 +1,5 @@
 import { array, has, sortBy } from '../helpers';
-import { DaGraph } from '../types';
+import type { DaGraph } from '../types';
 
 /*
  * Assigns an initial order value for each node by performing a DFS search

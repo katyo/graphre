@@ -1,6 +1,6 @@
 import * as util from "./util";
-import { Edge } from "./graph";
-import { DaGraph, GraphNode } from "./types";
+import type { Edge } from "./graph";
+import type { DaGraph, GraphNode } from "./types";
 
 export var normalize = { run, undo };
 

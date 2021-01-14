@@ -1,3 +1,4 @@
+export type {DaGraph, Alignment, RankDir, Ranker, Acyclicer, Vector, Rect, GraphLabel, GraphNode, EdgeLabel, LayoutGraphConfig, LayoutEdge, LayoutNode, LayoutGraph, ConstraintGraph} from './types';
 export * as data from './data/list';
 export * as order from './order';
 export * as position from './position';
@@ -15,7 +16,7 @@ export { parentDummyChains } from './parent-dummy-chains';
 export * as util from './util';
 export { version } from './version';
 
-export { Edge, Graph, GraphLike } from "./graph";
+export type { Edge, Graph, GraphLike } from "./graph";
 export * as alg from './alg/index';
 export * as json from './json';
 export { PriorityQueue } from './data/priority-queue';

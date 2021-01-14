@@ -1,6 +1,6 @@
 import { values } from "./helpers";
 import * as util from "./util";
-import { DaGraph } from "./types";
+import type { DaGraph } from "./types";
 
 export var nestingGraph = { run, cleanup };
 

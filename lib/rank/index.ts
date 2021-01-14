@@ -1,7 +1,7 @@
 import { longestPath } from "./util";
 import { feasibleTree } from "./feasible-tree";
 import { networkSimplex } from "./network-simplex";
-import { DaGraph } from "../types";
+import type { DaGraph } from "../types";
 
 export { networkSimplex } from './network-simplex';
 export { feasibleTree } from './feasible-tree';

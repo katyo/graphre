@@ -1,5 +1,5 @@
 import { topsort, CycleException } from './topsort';
-import { GraphLike } from '../graph';
+import type { GraphLike } from '../graph';
 
 export function isAcyclic(g: GraphLike): boolean {
   try {

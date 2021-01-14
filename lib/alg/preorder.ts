@@ -1,4 +1,4 @@
-import { GraphLike } from "../graph";
+import type { GraphLike } from "../graph";
 import { dfs } from "./dfs";
  
 export function preorder(g: GraphLike, vs: string|Array<string>) {

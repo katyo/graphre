@@ -1,4 +1,4 @@
-import { GraphLike } from '../graph';
+import type { GraphLike } from '../graph';
 
 /*
  * A helper that preforms a pre- or post-order traversal on the input graph

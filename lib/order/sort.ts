@@ -1,6 +1,6 @@
 import { flattenDeep, has, last, sortBy } from "../helpers";
 import * as util from "../util";
-import { XEntry } from './resolve-conflicts';
+import type { XEntry } from './resolve-conflicts';
 
 export interface SortResult {
   vs: string[]

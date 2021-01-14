@@ -1,4 +1,4 @@
-import { GraphLike } from '../graph';
+import type { GraphLike } from '../graph';
 
 export function components(g: GraphLike): string[][] {
   var visited: Record<string, boolean> = {};

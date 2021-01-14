@@ -1,8 +1,8 @@
 import { Barycenter, barycenter } from "./barycenter";
 import { resolveConflicts, XEntry } from "./resolve-conflicts";
 import { sort, SortResult } from "./sort";
-import { LayerGraph } from './build-layer-graph';
-import { ConstraintGraph } from '../types';
+import type { LayerGraph } from './build-layer-graph';
+import type { ConstraintGraph } from '../types';
 import { flattenDeep, has } from "../helpers";
 
 export function sortSubgraph(g: LayerGraph, v: string, cg: ConstraintGraph, biasRight: boolean) {

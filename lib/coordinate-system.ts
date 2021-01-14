@@ -1,5 +1,5 @@
 import { has } from "./helpers";
-import { DaGraph, Rect, Vector } from "./types";
+import type { DaGraph, Rect, Vector } from "./types";
 
 export var coordinateSystem = { adjust, undo };
 

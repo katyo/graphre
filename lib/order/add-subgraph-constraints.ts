@@ -1,5 +1,5 @@
-import { ConstraintGraph } from '../types';
-import { LayerGraph } from './build-layer-graph';
+import type { ConstraintGraph } from '../types';
+import type { LayerGraph } from './build-layer-graph';
 
 export function addSubgraphConstraints(g: LayerGraph, cg: ConstraintGraph, vs: string[]) {
   var prev: Record<string, string> = {};

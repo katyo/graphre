@@ -1,4 +1,4 @@
-import { Edge, GraphLike } from "../graph";
+import type { Edge, GraphLike } from "../graph";
 import { PriorityQueue } from '../data/priority-queue';
 
 var DEFAULT_WEIGHT_FUNC = ()=>1;

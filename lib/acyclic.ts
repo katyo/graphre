@@ -1,6 +1,6 @@
 import { greedyFAS } from "./greedy-fas";
-import { DaGraph } from "./types";
-import { Edge } from "./graph";
+import type { DaGraph } from "./types";
+import type { Edge } from "./graph";
 import { has, uniqueId } from "./helpers";
 
 export var acyclic = { run, undo };

@@ -1,5 +1,5 @@
 import * as util from "./util";
-import { DaGraph, GraphNode } from "./types";
+import type { DaGraph, GraphNode } from "./types";
 import { has } from "./helpers";
 
 export function addBorderSegments(g: DaGraph) {

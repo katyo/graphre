@@ -1,5 +1,5 @@
-import { Edge, GraphLike } from '../graph';
-import { DjikstraEntry } from './dijkstra';
+import type { Edge, GraphLike } from '../graph';
+import type { DjikstraEntry } from './dijkstra';
 
 var DEFAULT_WEIGHT_FUNC = () => 1;
 

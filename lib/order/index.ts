@@ -5,7 +5,7 @@ import { buildLayerGraph, LayerGraph } from "./build-layer-graph";
 import { addSubgraphConstraints } from "./add-subgraph-constraints";
 import { Graph } from "../graph";
 import { buildLayerMatrix, maxRank } from "../util";
-import { ConstraintGraph, DaGraph, EdgeLabel, GraphLabel, GraphNode } from '../types';
+import type { ConstraintGraph, DaGraph, EdgeLabel, GraphLabel, GraphNode } from '../types';
 import { range } from "../helpers";
 
 export { addSubgraphConstraints } from "./add-subgraph-constraints";

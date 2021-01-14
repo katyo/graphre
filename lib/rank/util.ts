@@ -1,6 +1,6 @@
-import { Edge } from "../graph";
+import type { Edge } from "../graph";
 import { has } from '../helpers';
-import { DaGraph } from '../types';
+import type { DaGraph } from '../types';
 
 /*
  * Initializes ranks for the input graph using the longest path algorithm. This

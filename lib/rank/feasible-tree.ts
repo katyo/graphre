@@ -1,6 +1,6 @@
 import { Edge, Graph } from "../graph";
 import { slack } from "./util";
-import { DaGraph } from '../types';
+import type { DaGraph } from '../types';
 import { minBy } from "../helpers";
 
 /*

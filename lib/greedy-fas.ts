@@ -1,7 +1,7 @@
 import { Edge, Graph } from "./graph";
 import { List } from "./data/list";
 import { array, flattenDeep } from "./helpers";
-import { DaGraph } from "./types";
+import type { DaGraph } from "./types";
 
 type FasGraph = Graph<unknown, FasNode, number>;
 

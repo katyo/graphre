@@ -1,6 +1,6 @@
 import { Graph } from "../graph";
 import { has, uniqueId } from "../helpers";
-import { DaGraph, EdgeLabel, GraphLabel, GraphNode } from '../types';
+import type { DaGraph, EdgeLabel, GraphLabel, GraphNode } from '../types';
 
 export type LayerGraph = Graph<GraphLabel, LayeredNode, EdgeLabel>;
 

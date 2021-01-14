@@ -1,5 +1,5 @@
 import { values } from '../helpers';
-import { ConstraintGraph } from '../types';
+import type { ConstraintGraph } from '../types';
 
 interface ForsterEntry {
   v?: string

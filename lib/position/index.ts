@@ -1,6 +1,6 @@
 import * as util from "../util";
 import { positionX } from "./bk";
-import { DaGraph } from '../types';
+import type { DaGraph } from '../types';
 
 export * as bk from './bk';
 

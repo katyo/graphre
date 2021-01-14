@@ -1,4 +1,4 @@
-import { GraphLike } from '../graph';
+import type { GraphLike } from '../graph';
 
 export class CycleException extends Error {}
 // @ts-ignore

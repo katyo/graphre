@@ -1,5 +1,5 @@
 import { tarjan } from "./tarjan";
-import { GraphLike } from "../graph";
+import type { GraphLike } from "../graph";
 
 export function findCycles(g: GraphLike) {
   return tarjan(g).filter(function(cmpt) {
